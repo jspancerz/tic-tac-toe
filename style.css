@@ -17,11 +17,10 @@ body{
     font-size: 100px;
     color: red;
     text-align: center;
-    background-color: white;
-    margin: 1px;
+    background-color: white;margin: 1px;
 }
 
-#gamegrid{
+#gamecontainer{
     display: grid;
     height: 500px;
     width: 500px;
@@ -29,4 +28,10 @@ body{
     gap: 1px;
     border: 10px outset black;
     background-color: black;
+}
+
+#new-game{
+    height: 100px;
+    width: 100px;
+    margin-right: 75px;
 }
